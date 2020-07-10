@@ -14,7 +14,7 @@ steps:
   inputs:
     sshEndpoint: 'VM Connection'
     contents: '**test-program.py'
-    targetFolder: '~/deploymentTest'
+    targetFolder: '~/deploymentDemo'
     readyTimeout: '20000'
 - task: SSH@0
   inputs:
