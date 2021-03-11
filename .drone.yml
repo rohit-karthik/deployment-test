@@ -1,5 +1,5 @@
 kind: pipeline
-type: exec
+type: docker
 name: default
 
 platform:
@@ -8,5 +8,6 @@ platform:
 
 steps:
 - name: greeting
+  image: python:3.9
   commands:
   - echo hello world
