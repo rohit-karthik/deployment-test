@@ -3,7 +3,8 @@ version: 2.1
 jobs:
   job_1:
     docker:
-    - image: "python:3.9"
+    - image: python:3.9
+    resource_class: small
     steps:
     - run: echo Hello CircleCI!
     
