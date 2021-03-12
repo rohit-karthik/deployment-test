@@ -6,7 +6,7 @@ jobs:
     - image: python:3.9
     resource_class: small
     steps:
-    - run: echo Hello CircleCI!
+    - run: echo $env_test
     
 workflows:
   test_workflow_2:
